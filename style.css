@@ -1,0 +1,159 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+}
+body {
+    background-color: var(--cor-de-fundo) ;
+    color: var(--branco-principal);
+    width: 95%;
+}
+
+body #corpo__streaming{
+    background-color: var(--cor-de-fundo) ;
+    color: var(--branco-principal);
+}
+
+/* Vídeos */
+
+video {
+    width: 3000px;
+    height: 200px;
+}
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+}
+
+.videos__container {
+    color: var(--branco-principal);
+    padding: 153px 20px 10px 20px;
+}
+
+
+.videos__item:hover {
+    transform: scale(1.3);
+    background-color: var(--azul-claro);
+    z-index: 2;
+    transition: .5s;
+}
+
+.logo__pequeno {
+    width: 20px;
+    height: 33px;
+
+}
+/* h2 CATEGORIA */
+H2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/* COLUNA VIDEO */
+
+SECTION {
+    display: flex;
+    justify-content:  space-between;
+    flex-flow: wrap ;
+    width: 87.8%;
+    padding-top: 8%;
+    padding-left: 2%;
+}
+
+/* Imagem video */
+
+.poster {
+    height: 150px;
+    width: 480px;
+    position: relative;
+    left: -120px;
+}
+
+/*descriçao do video*/
+
+.descricao-video h3 {
+    font-weight: 700;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15pt;
+}
+
+.descricao-video p {
+    font-size: 14px;
+    color: #444444;
+}
+
+
+/* Página inicial */
+
+.filmes-series {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 26.8%;
+}
+
+.nome {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25pt;
+    position: relative;
+    top: 110px;
+    opacity: 0.7;
+}
+
+p {
+    font-size: 17pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    position: relative;
+    left: 34.7%;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.vamos {
+    padding: 12px;
+    border-radius: 3px;
+    background-color: rgb(155, 0, 0);
+    position: relative;
+    left: 60%;
+    top: 32px;
+    color: white;
+}
+
+input {
+    background-color: black;
+    opacity: 0.1;
+    border-color: rgb(179, 176, 176);
+    position: relative;
+    top: 90px;
+    left: 33%;
+    height: 50px;
+    color: white;
+    font-size: 23pt;
+}
+
+/*  Flexbox Vídeos */
+
+.videos__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+  }
+  
+  .videos__item{
+    height: 303px;
+    width: 280px;
+    flex-grow: 1;
+  }
+
+/* PARABÉNS */
+
